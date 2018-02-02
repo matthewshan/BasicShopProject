@@ -1,0 +1,100 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+
+.form
+{
+	border: 1px solid #DDDDDD;
+	border-radius: 4px;
+	box-shadow: .1em .1em .1em #333;
+	width: 60%;
+	margin: 5em auto;
+}
+
+input[type="text"],[type="password"],[type="number"]
+{
+	outline: none;
+	padding: .5em;
+	display: block;
+	width: 80%;
+	height: 4em;
+	border-radius: 3px;
+	border: 1px solid #eeeeee;
+	margin: 2em auto;
+}
+input[type="submit"]
+{
+	padding: .1em;
+	color: #ffffff;
+	background: #055339;
+	width: 80%;
+	height: 3em;
+	margin: 0 auto;
+	border: 0;
+	border-radius: 3px;
+	cursor: pointer;
+	-webkit-transition-duration: .5s;
+	transition-duration: .5s;
+	font-size: 1.5em;
+}
+input[type="submit"]:hover
+{
+	background: #5AA88D;
+	color: #133221;
+	-webkit-transition-duration: .5s;
+	transition-duration: .5s;
+}
+.header
+{
+	border-bottom: 1px solid #dddddd;
+	padding: 1em 0;
+	width: 100%;
+	background-color: #eeeeee;
+}
+.header a
+{
+	color: #333333;
+	text-decoration: none;
+}
+
+.form a
+{
+	color: #5AA88D;
+	text-decoration: none;
+}
+
+.captcha
+{
+	margin-top: 2em;
+	display: inline-block;
+}
+
+.addItem
+{
+	display: inline-block !important;
+	width: 15em !important;
+}
+
+table
+{
+	margin: 0 auto;
+	border: 2px solid #eee;
+	width: 80%;
+}
+td
+{
+	border: 1px solid #eee;
+	padding: 1em 1em;
+	width: 3em;
+}
+
+.buttonSmall
+{
+	width: 7em !important;
+	height: 2.5em !important;
+	border-radius: 2em !important;
+}
