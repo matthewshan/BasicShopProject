@@ -52,7 +52,7 @@
 					<input type="password" placeholder="Enter your Password" name="password"></input>
 
 					<input type="submit" value="Login"></input>
-					<!--<div class="g-recaptcha captcha" data-sitekey="6LdsayEUAAAAACV-_GAKAT3rYS-1DzCnND2GgIYf"></div>-->
+					<!--<div class="g-recaptcha captcha" data-sitekey="[Insert Key here]"></div>-->
 					<p><a href="register.php">Need an account? Register here!</a></p>
 				</form>
 			</div>
